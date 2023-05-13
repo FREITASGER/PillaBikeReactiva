@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="55.0" prefWidth="596.0">
+         <children>
+            <VBox layoutX="7.0" layoutY="2.0" prefHeight="51.0" prefWidth="583.0">
+               <children>
+                  <HBox prefHeight="51.0" prefWidth="355.0">
+                     <children>
+                        <Button fx:id="btShowParkings" mnemonicParsing="false" onAction="#showAllParkings" text="Ver parkings">
+                           <HBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <TextArea fx:id="parkingsArea" layoutY="68.0" prefHeight="332.0" prefWidth="600.0" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
