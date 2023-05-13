@@ -14,8 +14,8 @@ public class Parking {
     private long id;
     private String name;
     private String city;
-    private LocalTime open;
-    private LocalTime close;
+    private String open;
+    private String close;
     private boolean isFull;
 
 }

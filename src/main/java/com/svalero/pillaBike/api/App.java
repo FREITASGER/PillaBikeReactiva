@@ -17,7 +17,7 @@ public class App extends Application {
     public void start(Stage stage) throws Exception {
 
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(R.getUI("main.fxml"));
+        loader.setLocation(R.getUI("/mainPI.fxml"));
         loader.setController(new AppController());
         ScrollPane mainPane = loader.load();
         Scene scene = new Scene(mainPane);

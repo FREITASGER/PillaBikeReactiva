@@ -1,0 +1,9 @@
+com\svalero\pillaBike\api\service\PillaBikeAPI.class
+com\svalero\pillaBike\api\util\R.class
+com\svalero\pillaBike\api\task\ParkingTask.class
+com\svalero\pillaBike\api\task\ParkingsTask.class
+com\svalero\pillaBike\api\model\Bike.class
+com\svalero\pillaBike\api\controller\AppController.class
+com\svalero\pillaBike\api\service\PillaBikeService.class
+com\svalero\pillaBike\api\model\Parking.class
+com\svalero\pillaBike\api\App.class

@@ -37,6 +37,11 @@ public class PillaBikeService {
     }
 
     public Observable<Parking> getParkings() {
-        return this.pillaBikeAPI.getInformationParking().flatMapIterable(parking -> parking);
+        return this.pillaBikeAPI.getParkings().flatMapIterable(parking -> parking);
     }
+
+    public Observable<Parking> getParking(long id) {
+        return this.pillaBikeAPI.getParking(id);
+    }
+
 }
